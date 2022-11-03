@@ -1,0 +1,228 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfe8f1;
+    padding: 5px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.imagem_logo {
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+}
+
+nav {
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a:hover {
+    color: teal;
+    cursor: pointer;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav button {
+    padding: 10px ;
+    background: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+nav button:hover {
+    background-color: teal;
+}
+
+.nome_salao {
+    font-size: 100px;
+    font-family: Rockwell;
+    color: #7bb4bd;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#quem_somos {
+    font-size: 70px;
+    color: teal;
+    text-align: center;
+    font-family: Rockwell;
+    padding-top: 20px;
+}
+
+.texto_sobre {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.imagem_salao {
+    vertical-align: top;
+    float: left;
+}
+
+#produtos_titulo {
+    margin-top: 110px;
+    font-size: 70px;
+    color: teal;
+    text-align: center;
+    font-family: Rockwell;
+}
+
+.lista_produtos {
+    width: 100%;
+    margin:0 auto;
+}
+
+.lista_produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.lista_produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.texto_produtos {
+    color: white;
+    font-size: 18px;
+}
+
+.valor_produto {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+#nossa_historia {
+    color: teal;
+    font-size: 70px;
+    font-family: Rockwell;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.textos {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.imagem_nossa_historia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#servicos {
+    color: teal;
+    font-size: 70px;
+    font-family: Rockwell;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagem_servicos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#equipe {
+    color: teal;
+    font-size: 70px;
+    font-family: Rockwell;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagem_equipe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.titulo_novidades {
+    color: #7bb4bd;
+    font-size: 70px;
+    font-family: Rockwell;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background: gray;
+    padding: 60px 15%;
+    display: flex;
+}
+
+footer div {
+    text-align: center;
+}
+
+.footer_links {
+    margin-top: 10px;
+}
+
+.footer_links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.footer_links a:hover {
+    color: teal;
+}
+
+.titulo_footer {
+    font-size: 30px;
+}
+
+.contact {
+    margin-left: 400px;
+}
+

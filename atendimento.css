@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfe8f1;
+    padding: 5px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.imagem_logo {
+    width: 210px;
+    height: 210px;
+    cursor: pointer;
+}
+
+nav {
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav ul li a:hover {
+    color: teal;
+    cursor: pointer;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav button {
+    padding: 10px ;
+    background: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+nav button:hover {
+    background-color: teal;
+}
+
+h1 {
+    color: #7bb4bd;
+    font-size: 50px;
+    font-family: Rockwell;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form_atendimento {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-family: Rockwell;
+    margin-top: 20px;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.botao_form {
+    margin-top: 30px;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 150px;
+    background: gray;
+    padding: 60px 15%;
+    display: flex;
+}
+
+footer div {
+    text-align: center;
+}
+
+.footer_links {
+    margin-top: 10px;
+}
+
+.footer_links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.footer_links a:hover {
+    color: teal;
+}
+
+.titulo_footer {
+    font-size: 30px;
+}
+
+.contact {
+    margin-left: 400px;
+}
